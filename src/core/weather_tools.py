@@ -2,7 +2,7 @@ from datetime import date
 import requests
 import os
 import json
-import date_utils
+from . import date_utils
 from typing import TypedDict
 
 class WeatherRequest(TypedDict):
